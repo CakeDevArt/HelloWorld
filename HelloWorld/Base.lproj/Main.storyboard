@@ -21,11 +21,6 @@
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <rect key="contentStretch" x="0.10000000000000001" y="0.0" width="1" height="1"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h6k-pz-bBJ">
-                                <rect key="frame" x="155" y="107" width="121" height="121"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <rect key="contentStretch" x="0.10000000000000001" y="0.0" width="1" height="1"/>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mdY-RV-rA2">
                                 <rect key="frame" x="289" y="107" width="121" height="121"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
@@ -103,6 +98,11 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TrW-WT-ooW">
                                 <rect key="frame" x="288" y="752" width="121" height="121"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <rect key="contentStretch" x="0.10000000000000001" y="0.0" width="1" height="1"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h6k-pz-bBJ">
+                                <rect key="frame" x="155" y="107" width="121" height="121"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <rect key="contentStretch" x="0.10000000000000001" y="0.0" width="1" height="1"/>
                             </view>
