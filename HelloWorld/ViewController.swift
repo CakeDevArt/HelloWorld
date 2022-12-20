@@ -18,13 +18,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        startButton.layer.cornerRadius = 15
         redTrafficLightView.layer.cornerRadius = 60
         redTrafficLightView.backgroundColor = #colorLiteral(red: 0.5527142397, green: 0.1346355199, blue: 0.1346355199, alpha: 1)
         yellowTrafficLightView.layer.cornerRadius = 60
         yellowTrafficLightView.backgroundColor = #colorLiteral(red: 0.5435929446, green: 0.5262179572, blue: 0.2287210027, alpha: 1)
         greenTrafficLightView.layer.cornerRadius = 60
         greenTrafficLightView.backgroundColor = #colorLiteral(red: 0.09598759765, green: 0.5079333119, blue: 0.2253593592, alpha: 1)
+        startButton.layer.cornerRadius = 15
     }
 
     @IBAction func startButtonTapped() {
