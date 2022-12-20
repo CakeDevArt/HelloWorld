@@ -25,6 +25,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tw9-eX-6aC"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="76I-bh-bEe">
                                 <rect key="frame" x="155" y="79" width="120" height="416"/>
@@ -65,6 +68,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="z3e-2U-vnG" secondAttribute="bottom" constant="22" id="qv3-ip-oIf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenTrafficLightView" destination="hYq-o7-Tb9" id="5bW-M9-RLE"/>
+                        <outlet property="redTrafficLightView" destination="7A2-Xh-te8" id="NS0-Wa-zkN"/>
+                        <outlet property="startButton" destination="z3e-2U-vnG" id="Pgh-wc-tZr"/>
+                        <outlet property="yellowTrafficLightView" destination="arL-OE-QTc" id="udj-c8-ZAG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
