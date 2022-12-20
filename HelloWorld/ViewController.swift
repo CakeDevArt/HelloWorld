@@ -28,26 +28,26 @@ class ViewController: UIViewController {
     }
 
     @IBAction func startButtonTapped() {
-        if redTrafficLightView.backgroundColor == UIColor.red.withAlphaComponent(0.3) &&
-            yellowTrafficLightView.backgroundColor == UIColor.yellow.withAlphaComponent(0.3) &&
+        if redTrafficLightView.backgroundColor == UIColor.red.withAlphaComponent(0.3),
+            yellowTrafficLightView.backgroundColor == UIColor.yellow.withAlphaComponent(0.3),
             greenTrafficLightView.backgroundColor == UIColor.green.withAlphaComponent(0.3) {
             
             redTrafficLightView.backgroundColor = UIColor.red.withAlphaComponent(1.0)
             startButton.setTitle("Next", for: .normal)
-        } else if redTrafficLightView.backgroundColor == UIColor.red.withAlphaComponent(1.0) &&
-                    yellowTrafficLightView.backgroundColor == UIColor.yellow.withAlphaComponent(0.3) &&
+        } else if redTrafficLightView.backgroundColor == UIColor.red.withAlphaComponent(1.0),
+                    yellowTrafficLightView.backgroundColor == UIColor.yellow.withAlphaComponent(0.3),
                     greenTrafficLightView.backgroundColor == UIColor.green.withAlphaComponent(0.3) {
             
             redTrafficLightView.backgroundColor = UIColor.red.withAlphaComponent(0.3)
             yellowTrafficLightView.backgroundColor = UIColor.yellow.withAlphaComponent(1.0)
-        } else if redTrafficLightView.backgroundColor == UIColor.red.withAlphaComponent(0.3) &&
-                    yellowTrafficLightView.backgroundColor == UIColor.yellow.withAlphaComponent(1.0) &&
+        } else if redTrafficLightView.backgroundColor == UIColor.red.withAlphaComponent(0.3),
+                    yellowTrafficLightView.backgroundColor == UIColor.yellow.withAlphaComponent(1.0),
                     greenTrafficLightView.backgroundColor == UIColor.green.withAlphaComponent(0.3) {
             
             yellowTrafficLightView.backgroundColor = UIColor.yellow.withAlphaComponent(0.3)
             greenTrafficLightView.backgroundColor = UIColor.green.withAlphaComponent(1.0)
-        } else if redTrafficLightView.backgroundColor == UIColor.red.withAlphaComponent(0.3) &&
-                    yellowTrafficLightView.backgroundColor == UIColor.yellow.withAlphaComponent(0.3) &&
+        } else if redTrafficLightView.backgroundColor == UIColor.red.withAlphaComponent(0.3),
+                    yellowTrafficLightView.backgroundColor == UIColor.yellow.withAlphaComponent(0.3),
                     greenTrafficLightView.backgroundColor == UIColor.green.withAlphaComponent(1.0) {
             
             redTrafficLightView.backgroundColor = UIColor.red.withAlphaComponent(1.0)
